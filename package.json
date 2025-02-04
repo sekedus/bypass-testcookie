@@ -1,0 +1,35 @@
+{
+  "name": "bypass-testcookie",
+  "version": "1.0.0",
+  "description": "Bypass protection by testcookie-nginx-module",
+  "homepage": "https://github.com/sekedus/bypass-testcookie#readme",
+  "license": "GPL-3.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "bypass",
+    "testcookie",
+    "testcookie-nginx-module",
+    "myownfreehost",
+    "ifastnet"
+  ],
+  "author": {
+    "name": "Sekedus",
+    "url": "https://github.com/sekedus"
+  },
+  "bugs": {
+    "url": "https://github.com/sekedus/bypass-testcookie/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sekedus/bypass-testcookie.git"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "express": "^4.21.2",
+    "jsdom": "^26.0.0",
+    "user-agents": "^1.1.432"
+  }
+}
